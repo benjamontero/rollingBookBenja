@@ -9,79 +9,74 @@
     <title>Red Social</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+        <script src="https://kit.fontawesome.com/f8498a1bc4.js"></script>
+    </head>
 
 <body>
     <div class="container-fluid">
-        <!-- comienza header -->
-        <div class="cabecera row align-items-end justify-content-between bg-danger">
-            <div class="navbar col-lg-3 col-sm-6">
-                <a class="navbar-brand rounded mx-auto d-block" href="index.html">
-                    <img src="img/icono.png" width="75" height="75" alt="">
-                </a>
-            </div>
-            <div class="name col-lg-3 col-sm-6 ">
-                <h3>Benjamin Montero</h3>
+        <!-- Comienza Menu -->
+        <div class="contenedor row justify-content-between">
+            <div class="contenedor col-12">
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/icono.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                        RollingCode Network
+                    </a>
+                    <div class="mx-auto order-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-list"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="FormLoginNew.html">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Marketplace.html">Marketplace</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <span class="navbar-text">
+                        Benjamin Montero Torres
+                    </span>
+                </nav>
             </div>
         </div>
-        <!-- termina header -->
+        <!-- Termina Menu -->
+
         <!-- Comienza contenido -->
-        <div class="contenido row justify-content-between">
-            <!-- Comienza Menu -->
-            <div class="menu col-sm-12 col-md-2 bg-danger">
-                    <nav class="nav flex-md-column nav-pills d-flex justify-content-center">
-                        <a class="nav-link" href="index.html">Home</a>
-                        <a class="nav-link" href="FormLoginNew.html">Registro</a>
-                        <a class="nav-link active" href="#">Marketplace</a>
-                        <a class="nav-link" href="#">Proximo</a>
-                    </nav>
-            </div>
-            <!-- Termina Menu -->
+        <div class="contenido row justify-content-between ">
+
             <!-- Empieza Categoria -->
-            
-            <div class="categoria col-sm-12 col-md-2 text-center bg-danger ">
-                
-                <ul class="list">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" value="">Option 1
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" value="">Option 2
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" value="">Option 3
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" value="">Option 4
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" value="">Option 5
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" value="">Option 6
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input type="checkbox" class="form-check-input" value="">Option 7
-                        </label>
-                    </div>
-                </ul>
+            <div class="col-lg-3 col-md-3 categoria navbar-light bg-light">
+                <div class="collapse dont-collapse-sm" id="categorySupportedContent">
+                    <h3>Categorias</h3>
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                        <li>categoria 1</li>
+                        </li>
+                        <li class="nav-item">
+                        <li>categoria 2</li>
+                        </li>
+                        <li class="nav-item dropdown">
+                        <li>categoria 3</li>
+                        </li>
+                        <li class="nav-item">
+                        <li>categoria 4</li>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
             <!-- Termina Categoria -->
-            <div class="products col-sm-12 col-md-7 ">
-                <div class="products-find row bg-danger">
+            <div class="products  col-md-8 col-lg-8 ">
+                <div class="products-find row navbar-light bg-light">
                     <div class="product-find col-md-12">
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Que estas necesitando?"
@@ -93,12 +88,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="products-list row">
+                <div class="products-list row ">
                     <div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center ">
-                        <div class="card bg-danger" style="width: 15rem;">
+                        <div class="card navbar-light bg-light" >
                             <img src="img/producto.png" class="card-img-top" alt="...">
                             <div class="price-image ">
-                                <h3><strong>$</strong></h3>
+                                <h3><strong>$111</strong></h3>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Producto.</p>
@@ -107,10 +102,10 @@
                         </div>
                     </div>
                     <div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
-                        <div class="card bg-danger" style="width: 15rem;">
+                        <div class="card navbar-light bg-light">
                             <img src="img/producto.png" class="card-img-top" alt="...">
                             <div class="price-image">
-                                <h3><strong>$</strong></h3>
+                                <h3><strong>$222</strong></h3>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Producto.</p>
@@ -119,10 +114,10 @@
                         </div>
                     </div>
                     <div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
-                        <div class="card bg-danger" style="width: 15rem;">
+                        <div class="card navbar-light bg-light">
                             <img src="img/producto.png" class="card-img-top" alt="...">
                             <div class="price-image">
-                                <h3><strong>$</strong></h3>
+                                <h3><strong>$333</strong></h3>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Producto.</p>
@@ -131,10 +126,10 @@
                         </div>
                     </div>
                     <div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
-                        <div class="card bg-danger" style="width: 15rem;">
+                        <div class="card navbar-light bg-light">
                             <img src="img/producto.png" class="card-img-top" alt="...">
                             <div class="price-image">
-                                <h3><strong>$</strong></h3>
+                                <h3><strong>$444</strong></h3>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Producto.</p>
@@ -143,10 +138,10 @@
                         </div>
                     </div>
                     <div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
-                        <div class="card bg-danger" style="width: 15rem;">
+                        <div class="card navbar-light bg-light">
                             <img src="img/producto.png" class="card-img-top" alt="...">
                             <div class="price-image">
-                                <h3><strong>$</strong></h3>
+                                <h3><strong>$555</strong></h3>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Producto.</p>
@@ -154,11 +149,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product-single col-sm-12 col-md-4 d-flex justify-content-center">
-                        <div class="card bg-danger" style="width: 15rem;">
+                    <div class="product-single col-sm-12 col-lg-4 d-flex justify-content-center">
+                        <div class="card navbar-light bg-light">
                             <img src="img/producto.png" class="card-img-top" alt="...">
                             <div class="price-image">
-                                <h3><strong>$</strong></h3>
+                                <h3><strong>$666</strong></h3>
                             </div>
                             <div class="card-body">
                                 <p class="card-text">Producto.</p>
@@ -170,6 +165,16 @@
             </div>
 
         </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

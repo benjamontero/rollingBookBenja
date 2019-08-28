@@ -9,52 +9,72 @@
     <title>Red Social</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+        <script src="https://kit.fontawesome.com/f8498a1bc4.js"></script>
+
+    </head>
 
 <body>
     <div class="container-fluid">
-        <!-- Comienza header -->
-        <div class="cabecera row align-items-end justify-content-between bg-danger">
-            <div class="navbar col-lg-3 col-sm-6">
-                <a class="navbar-brand rounded mx-auto d-block" href="index.html">
-                    <img src="img/icono.png" width="75" height="75" alt="">
-                </a>
-            </div>
-            <div class="name col-lg-3 col-sm-6 ">
-                <h3>Benjamin Montero</h3>
+        <!-- Comienza Menu -->
+        <div class="contenedor row justify-content-between">
+            <div class="contenedor col-12">
+                <nav class="navbar navbar-expand-md navbar-light bg-light">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/icono.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                        RollingCode Network
+                    </a>
+                    <div class="mx-auto order-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fas fa-list"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="FormLoginNew.html">Register</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Marketplace.html">Marketplace</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                    <span class="navbar-text">
+                        Benjamin Montero Torres
+                    </span>
+                </nav>
             </div>
         </div>
-        <!-- termina header -->
+            <!-- Termina Menu -->
         <!-- Comienza contenido -->
         <div class="contenido row justify-content-between ">
             <!-- Comienza Menu -->
-            <div class="menu col-sm-12 col-md-2  bg-danger">
-                <nav class="nav flex-md-column nav-pills d-flex justify-content-center">
-                    <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="FormLoginNew.html">Registro</a>
-                    <a class="nav-link" href="Marketplace.html">Marketplace</a>
-                    <a class="nav-link" href="#">Proximo</a>
-                </nav>
+            <div class="menu col-sm-12 col-md-2  ">
+            
             </div>
             <!-- Termina Menu -->
             <div class="main col-sm-12 col-md-8 ">
-                <div class="post  bg-danger">
-                    <div class="form-group">
+                <div class="post  bg-light ">
+                    <div class="form-group ">
                         <textarea class="form-control" rows="2" placeholder="Como te sientes hoy?"></textarea>
                     </div>
                     <button type="button" class="btn btn-secondary btn-sm float-right">Postear</button>
                 </div>
-                <div class="post-multimedia bg-danger">
+                <div class="post-multimedia  bg-light">
                     <img src="img/Photo1.jpg" class="img-fluid rounded mx-auto d-block" width="92%">
                 </div>
-                <div class="post-multimedia  bg-danger">
+                <div class="post-multimedia  bg-light ">
                     <div class="embed-responsive embed-responsive-16by9">
                         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0"
                             allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-            <div class="banner main col-sm-12 col-md-2  bg-danger">
+            <div class="banner main col-sm-12 col-md-2  bg-light ">
                 <img src="img/Banner.png" class="img-fluid rounded mx-auto d-block">
             </div>
 
